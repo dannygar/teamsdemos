@@ -1,0 +1,43 @@
+{
+    "solution": {
+        "teamsAppTenantId": "8385af7f-4e3e-42b9-a17d-0a43eb16aefd",
+        "subscriptionId": "387ebd03-ca73-4c5b-a340-34cba439d2e3",
+        "subscriptionName": "msteamsdemos",
+        "tenantId": "8385af7f-4e3e-42b9-a17d-0a43eb16aefd",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "teamstabapp1-dev-rg",
+        "location": "East US",
+        "resourceNameSuffix": "549910",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "8385af7f-4e3e-42b9-a17d-0a43eb16aefd",
+        "teamsAppId": "8db0d03a-c520-41a4-91f3-09b8cd44d675",
+        "teamsAppUpdatedAt": 1645648673839
+    },
+    "fx-resource-identity": {
+        "identityName": "teamstabapdevdd61a1",
+        "identityResourceId": "/subscriptions/387ebd03-ca73-4c5b-a340-34cba439d2e3/resourceGroups/teamstabapp1-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/teamstabapdevdd61a1",
+        "identityClientId": "74f9bd8e-91f9-4f80-8070-bcad94065777"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "ed04e2d5-36e5-4952-aaf0-8c00936c9897",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "4a7c72d7-32f0-47f4-b54f-7ee170885492",
+        "oauth2PermissionScopeId": "faf221f9-60ad-4414-9603-4caf57d684a9",
+        "tenantId": "8385af7f-4e3e-42b9-a17d-0a43eb16aefd",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/8385af7f-4e3e-42b9-a17d-0a43eb16aefd",
+        "applicationIdUris": "api://teamstabapdevdd61a1tab.z13.web.core.windows.net/ed04e2d5-36e5-4952-aaf0-8c00936c9897"
+    },
+    "fx-resource-function": {
+        "functionAppResourceId": "/subscriptions/387ebd03-ca73-4c5b-a340-34cba439d2e3/resourceGroups/teamstabapp1-dev-rg/providers/Microsoft.Web/sites/teamstabapdevdd61a1api",
+        "functionEndpoint": "https://teamstabapdevdd61a1api.azurewebsites.net"
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "teamstabapdevdd61a1tab.z13.web.core.windows.net",
+        "endpoint": "https://teamstabapdevdd61a1tab.z13.web.core.windows.net",
+        "indexPath": "/index.html#",
+        "storageResourceId": "/subscriptions/387ebd03-ca73-4c5b-a340-34cba439d2e3/resourceGroups/teamstabapp1-dev-rg/providers/Microsoft.Storage/storageAccounts/teamstabapdevdd61a1tab"
+    }
+}
